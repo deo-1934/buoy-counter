@@ -37,7 +37,7 @@ if uploaded_file:
             cv2.imwrite(resized_path, resized_img)
 
             # پردازش تصویر
-            result = client.infer(resized_path, model_id="buoycounter/1")  # 👈 model_id دقیق رو بذار
+            result = client.infer(resized_path, model_id="buoy-wn6n2/2")  # 👈 model_id دقیق
             predictions = result.get("predictions", [])
 
             st.success("Detection completed!")
