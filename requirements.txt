@@ -4,3 +4,6 @@ numpy
 torch
 torchvision
 ultralytics
+streamlit
+inference-sdk
+pillow
